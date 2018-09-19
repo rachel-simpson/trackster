@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>trackster</title>
+  <!-- favicon -->
+  <link rel="icon" href="favicon.png" type="image/x-icon">
+  <!-- font families -->
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+  <!-- css reset / style / fontawesome / bootstrap -->
+  <link rel="stylesheet" type="text/css" href="./resources/css/reset.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+  integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+  crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+  crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
+</head>
+<body>
+
+  <header>
+    <!-- title and search area -->
+    <div class="container-fluid">
+      <div class="row header">
+        <h1 class="col-7 offset-1">trackster</h1>
+        <input class="col-2" type="text" name="query" id="search-field" placeholder="Whatcha lookin' for?">
+        <i class="col-1 fas fa-search fa-2x" id="search-button"></i>
+      </div>
+      <!-- category headers -->
+      <div class="row" id="categories">
+        <div class="col-1 offset-1">
+        </div>
+        <div class="col-4">
+          <p>Song</p>
+        </div>
+        <div class="col-2">
+          <p>Artist</p>
+        </div>
+        <div class="col-2">
+          <p>Artwork</p>
+        </div>
+        <div class="col-2">
+          <p>Listeners</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- results area -->
+  <div class="container-fluid" id="results">
+    <div class="row track">
+    </div>
+  </div>
+
+  <!-- jquery / bootstrap / number formatting / javascript -->
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+  integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+  <script type="text/javascript" src="./resources/js/trackster.js"></script>
+  <script type="text/javascript" src="./resources/js/tests.js"></script>
+</body>
+</html>

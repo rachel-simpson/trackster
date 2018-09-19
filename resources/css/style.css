@@ -1,0 +1,101 @@
+/*
+  Custom styles for Trackster App
+*/
+
+html {
+  font-size: 16px;
+}
+
+body {
+  color: rgb(74, 74, 74);
+  font-family: "Work Sans", sans-serif;
+  line-height: 2.5;
+}
+
+h1 {
+  color: rgb(255, 0, 171);
+  font-family: 'Righteous', sans-serif;
+  font-size: 2.5rem;
+  transition: color .5s;
+}
+
+p {
+  margin: 0;
+}
+
+/* header section */
+
+.header {
+  background-color: rgb(35, 2, 63);
+  padding: 2.5rem;
+}
+
+input {
+  border-radius: 1.5rem;
+  color: rgb(74, 74, 74);
+  margin-right: 10px;
+  padding: 1rem auto;
+}
+
+input:focus {
+  outline: none;
+}
+
+.h1Transform {
+  color: yellow;
+}
+
+#search-button {
+  background-color: rgb(255, 0, 171);
+  border-radius: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(35, 2, 63);
+}
+
+#search-button:hover {
+  background-color: rgb(255, 102, 204);
+}
+
+#search-button:active {
+  transform: scale(.9);
+}
+
+#categories {
+  background-color: rgb(104, 0, 244);
+  color: rgb(255, 255, 255);
+}
+
+/* results section */
+
+.track {
+  background-color: black;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  color: white;
+}
+
+.track:hover {
+  background-color: white;
+  color: black;
+}
+
+.track i {
+  color: rgb(255, 0, 171);
+  margin: .5rem 0;
+}
+
+.track i:hover {
+  transform: scale(1.2);
+}
+
+.track img {
+  margin: .5rem 0;
+}
+
+.track div {
+  display: flex;
+  align-items: center;
+}
